@@ -44,7 +44,7 @@ public class Launcher : MonoBehaviourPunCallbacks
     public override void OnConnectedToMaster()
     {
         Debug.Log("PUN Basics Tutorial/Launcher: OnConnectedToMaster() was called by PUN");
-        PhotonNetwork.LoadLevel("Rooms");
+        PhotonNetwork.LoadLevel("Lobby");
     }
 
     public override void OnDisconnected(DisconnectCause cause)
